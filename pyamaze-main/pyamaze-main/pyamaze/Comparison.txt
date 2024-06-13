@@ -1,0 +1,38 @@
+Algorithm on Maze:
+BFS: Breath First Search
+DFS: Dept First Search
+A*: A Star Search
+Comparison of BFS and A* in Maze:
+Compare 01
+    1.	Search Path
+        -	BFS: 600
+        -	A*: 133
+    2.	Length of Final Path from Start to Goal
+        -	BFS: 49
+        -	A*: 49 
+    3.	Time Consumption
+    -	BFS: 16.14sec
+    -	A*: 2.14sec
+
+Compare 02
+    1.	Search Path
+        -	BFS: 600
+        -	A*: 52
+    2.	Length of Final Path from Start to Goal
+        -	BFS: 49
+        -	A*: 49 
+    3.	Time Consumption
+        -	BFS: 16.16sec
+        -	A*: 1.15sec
+
+Compare 03
+    1.	Search Path
+        -	BFS: 191
+        -	A*: 191
+    2.	Length of Final Path from Start to Goal
+        -	BFS: 544
+        -	A*: 488
+    3.	Time Consumption
+        -	BFS: 10.36sec
+        -	A*: 5.43sec
+So inclusions A* is best for maze search algorithm (Less Path less memory less time). 
